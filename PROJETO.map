@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Thu Apr 18 00:23:28 2019
+Linker Map File - Created Sun Apr 14 16:29:24 2019
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -9,110 +9,110 @@ Linker Map File - Created Thu Apr 18 00:23:28 2019
 REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
                    .cinit    romdata   0x00000e    program   0x00000e
                      PROG       code   0x00001c    program   0x00036e
-             .stringtable    romdata   0x00038a    program   0x0001eb
-       .idata_adcconv.o_i    romdata   0x000575    program   0x000000
-      .romdata_fxd1616u.o    romdata   0x000575    program   0x000000
-       .romdata_adcopen.o    romdata   0x000575    program   0x000000
-        .idata_t0open.o_i    romdata   0x000575    program   0x000000
-       .idata_adcread.o_i    romdata   0x000575    program   0x000000
-      .romdata_adcsetch.o    romdata   0x000575    program   0x000000
-       .romdata_t0write.o    romdata   0x000575    program   0x000000
-        .romdata___init.o    romdata   0x000575    program   0x000000
-       .romdata_sprintf.o    romdata   0x000575    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x000575    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x000575    program   0x000000
-       .romdata_fxm3232.o    romdata   0x000575    program   0x000000
-          .idata_putc.o_i    romdata   0x000575    program   0x000000
-    .idata__user_putc.o_i    romdata   0x000575    program   0x000000
-         .idata_c018i.o_i    romdata   0x000575    program   0x000000
-       .romdata_adcbusy.o    romdata   0x000575    program   0x000000
-            .code_c018i.o       code   0x000576    program   0x000000
-          .code_sprintf.o       code   0x000576    program   0x0000ac
-               _cinit_scn       code   0x000622    program   0x00009e
-             .code_putc.o       code   0x0006c0    program   0x000084
-          .code_fxm3232.o       code   0x000744    program   0x000070
-         .code_fxd3232u.o       code   0x0007b4    program   0x000048
-          .code_adcconv.o       code   0x0007fc    program   0x000004
+             .stringtable    romdata   0x00038a    program   0x0001e4
+          .code_sprintf.o       code   0x00056e    program   0x0000ac
+               _cinit_scn       code   0x00061a    program   0x00009e
+             .code_putc.o       code   0x0006b8    program   0x000084
+          .code_fxm3232.o       code   0x00073c    program   0x000070
+         .code_fxd3232u.o       code   0x0007ac    program   0x000048
+          .code_adcbusy.o       code   0x0007f4    program   0x00000a
+           .code___init.o       code   0x0007fe    program   0x000002
   _RESET_INTERRUPT_VECTOR       code   0x000800    program   0x000006
-           .code_Timer0.o       code   0x000806    program   0x0020da
-         .code_vfprintf.o       code   0x0028e0    program   0x000c22
-          .code_adcopen.o       code   0x003502    program   0x00006e
-                   STRING       code   0x003570    program   0x000066
-          .code_t0write.o       code   0x0035d6    program   0x000038
-           .code_t0open.o       code   0x00360e    program   0x000038
-             D10KTCYXCODE       code   0x003646    program   0x00002e
-         .code_adcsetch.o       code   0x003674    program   0x00002e
-         .code_fxd1616u.o       code   0x0036a2    program   0x00002c
-                    CTYPE       code   0x0036ce    program   0x000024
-                    .code       code   0x0036f2    program   0x000020
-             _startup_scn       code   0x003712    program   0x00001c
-                    STDIO       code   0x00372e    program   0x00001c
-             D100TCYXCODE       code   0x00374a    program   0x00001c
-              D10TCYXCODE       code   0x003766    program   0x000016
-          .code_adcread.o       code   0x00377c    program   0x000012
-      .romdata_vfprintf.o    romdata   0x00378e    program   0x000011
-          .romdata_putc.o    romdata   0x00379f    program   0x000000
-    .romdata__user_putc.o    romdata   0x00379f    program   0x000000
-       .idata_adcbusy.o_i    romdata   0x00379f    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x00379f    program   0x000000
-      .idata_fxd1616u.o_i    romdata   0x00379f    program   0x000000
-         .romdata_c018i.o    romdata   0x00379f    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x00379f    program   0x000000
-       .romdata_adcconv.o    romdata   0x00379f    program   0x000000
-        .romdata_Timer0.o    romdata   0x00379f    program   0x000000
-       .idata_adcopen.o_i    romdata   0x00379f    program   0x000000
-       .idata_sprintf.o_i    romdata   0x00379f    program   0x000000
-        .idata___init.o_i    romdata   0x00379f    program   0x000000
-       .idata_t0write.o_i    romdata   0x00379f    program   0x000000
-      .idata_adcsetch.o_i    romdata   0x00379f    program   0x000000
-       .romdata_adcread.o    romdata   0x00379f    program   0x000000
-        .romdata_t0open.o    romdata   0x00379f    program   0x000000
-          .code_adcbusy.o       code   0x0037a0    program   0x00000a
-           .code___init.o       code   0x0037aa    program   0x000002
-        .idata_Timer0.o_i    romdata   0x0037ac    program   0x000050
+           .code_Timer0.o       code   0x000806    program   0x0020a0
+         .code_vfprintf.o       code   0x0028a6    program   0x000c22
+          .code_adcopen.o       code   0x0034c8    program   0x00006e
+                   STRING       code   0x003536    program   0x000066
+          .code_t0write.o       code   0x00359c    program   0x000038
+           .code_t0open.o       code   0x0035d4    program   0x000038
+             D10KTCYXCODE       code   0x00360c    program   0x00002e
+         .code_adcsetch.o       code   0x00363a    program   0x00002e
+         .code_fxd1616u.o       code   0x003668    program   0x00002c
+                    CTYPE       code   0x003694    program   0x000024
+                    .code       code   0x0036b8    program   0x000020
+             _startup_scn       code   0x0036d8    program   0x00001c
+                    STDIO       code   0x0036f4    program   0x00001c
+             D100TCYXCODE       code   0x003710    program   0x00001c
+              D10TCYXCODE       code   0x00372c    program   0x000016
+          .code_adcread.o       code   0x003742    program   0x000012
+      .romdata_vfprintf.o    romdata   0x003754    program   0x000011
+      .idata_fxd3232u.o_i    romdata   0x003765    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x003765    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x003765    program   0x000000
+          .idata_putc.o_i    romdata   0x003765    program   0x000000
+       .romdata_sprintf.o    romdata   0x003765    program   0x000000
+    .romdata__user_putc.o    romdata   0x003765    program   0x000000
+       .idata_sprintf.o_i    romdata   0x003765    program   0x000000
+          .romdata_putc.o    romdata   0x003765    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x003765    program   0x000000
+        .romdata___init.o    romdata   0x003765    program   0x000000
+        .idata___init.o_i    romdata   0x003765    program   0x000000
+    .idata__user_putc.o_i    romdata   0x003765    program   0x000000
+       .romdata_fxm3232.o    romdata   0x003765    program   0x000000
+         .idata_c018i.o_i    romdata   0x003765    program   0x000000
+         .romdata_c018i.o    romdata   0x003765    program   0x000000
+        .romdata_Timer0.o    romdata   0x003765    program   0x000000
+       .idata_adcbusy.o_i    romdata   0x003765    program   0x000000
+       .romdata_adcbusy.o    romdata   0x003765    program   0x000000
+       .idata_adcconv.o_i    romdata   0x003765    program   0x000000
+       .romdata_adcconv.o    romdata   0x003765    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x003765    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x003765    program   0x000000
+       .romdata_t0write.o    romdata   0x003765    program   0x000000
+       .idata_t0write.o_i    romdata   0x003765    program   0x000000
+      .romdata_adcsetch.o    romdata   0x003765    program   0x000000
+      .idata_adcsetch.o_i    romdata   0x003765    program   0x000000
+       .romdata_adcread.o    romdata   0x003765    program   0x000000
+       .idata_adcread.o_i    romdata   0x003765    program   0x000000
+        .romdata_t0open.o    romdata   0x003765    program   0x000000
+        .idata_t0open.o_i    romdata   0x003765    program   0x000000
+       .romdata_adcopen.o    romdata   0x003765    program   0x000000
+       .idata_adcopen.o_i    romdata   0x003765    program   0x000000
+          .code_adcconv.o       code   0x003766    program   0x000004
+            .code_c018i.o       code   0x003766    program   0x000000
+        .idata_Timer0.o_i    romdata   0x00376a    program   0x000048
   .config_300001_Timer0.o    romdata   0x300001    program   0x000001
   .config_300002_Timer0.o    romdata   0x300002    program   0x000001
   .config_300003_Timer0.o    romdata   0x300003    program   0x000001
   .config_300005_Timer0.o    romdata   0x300005    program   0x000001
   .config_300006_Timer0.o    romdata   0x300006    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000014
-                 .tmpdata      udata   0x000014       data   0x000008
-                DELAYDAT2      udata   0x00001c       data   0x000001
-                DELAYDAT1      udata   0x00001d       data   0x000001
-          .idata_Timer0.o      idata   0x000080       data   0x000050
-           .udata_c018i.o      udata   0x0000d0       data   0x00000a
-         .udata_t0write.o      udata   0x0000da       data   0x000000
-         .idata_t0write.o      idata   0x0000da       data   0x000000
-          .udata___init.o      udata   0x0000da       data   0x000000
-          .idata___init.o      idata   0x0000da       data   0x000000
-         .udata_sprintf.o      udata   0x0000da       data   0x000000
-         .idata_sprintf.o      idata   0x0000da       data   0x000000
-        .udata_vfprintf.o      udata   0x0000da       data   0x000000
-        .idata_vfprintf.o      idata   0x0000da       data   0x000000
-        .udata_fxd3232u.o      udata   0x0000da       data   0x000000
-      .idata__user_putc.o      idata   0x0000da       data   0x000000
-        .idata_fxd3232u.o      idata   0x0000da       data   0x000000
-         .udata_fxm3232.o      udata   0x0000da       data   0x000000
-         .idata_fxm3232.o      idata   0x0000da       data   0x000000
-            .udata_putc.o      udata   0x0000da       data   0x000000
-            .idata_putc.o      idata   0x0000da       data   0x000000
-      .udata__user_putc.o      udata   0x0000da       data   0x000000
-           .idata_c018i.o      idata   0x0000da       data   0x000000
-         .udata_adcbusy.o      udata   0x0000da       data   0x000000
-         .idata_adcbusy.o      idata   0x0000da       data   0x000000
-         .udata_adcconv.o      udata   0x0000da       data   0x000000
-         .idata_adcconv.o      idata   0x0000da       data   0x000000
-        .udata_fxd1616u.o      udata   0x0000da       data   0x000000
-        .idata_fxd1616u.o      idata   0x0000da       data   0x000000
-         .udata_adcopen.o      udata   0x0000da       data   0x000000
-         .idata_adcopen.o      idata   0x0000da       data   0x000000
-          .udata_t0open.o      udata   0x0000da       data   0x000000
-          .idata_t0open.o      idata   0x0000da       data   0x000000
-         .udata_adcread.o      udata   0x0000da       data   0x000000
-         .idata_adcread.o      idata   0x0000da       data   0x000000
-        .udata_adcsetch.o      udata   0x0000da       data   0x000000
-        .idata_adcsetch.o      idata   0x0000da       data   0x000000
-          .udata_Timer0.o      udata   0x000100       data   0x00004c
+                 .tmpdata      udata   0x000014       data   0x000007
+                DELAYDAT2      udata   0x00001b       data   0x000001
+                DELAYDAT1      udata   0x00001c       data   0x000001
+          .udata_Timer0.o      udata   0x000080       data   0x00005a
+           .udata_c018i.o      udata   0x0000da       data   0x00000a
+         .udata_t0write.o      udata   0x0000e4       data   0x000000
+         .idata_t0write.o      idata   0x0000e4       data   0x000000
+          .udata___init.o      udata   0x0000e4       data   0x000000
+          .idata___init.o      idata   0x0000e4       data   0x000000
+         .udata_sprintf.o      udata   0x0000e4       data   0x000000
+         .idata_sprintf.o      idata   0x0000e4       data   0x000000
+        .udata_vfprintf.o      udata   0x0000e4       data   0x000000
+        .idata_vfprintf.o      idata   0x0000e4       data   0x000000
+        .udata_fxd3232u.o      udata   0x0000e4       data   0x000000
+      .idata__user_putc.o      idata   0x0000e4       data   0x000000
+        .idata_fxd3232u.o      idata   0x0000e4       data   0x000000
+         .udata_fxm3232.o      udata   0x0000e4       data   0x000000
+         .idata_fxm3232.o      idata   0x0000e4       data   0x000000
+            .udata_putc.o      udata   0x0000e4       data   0x000000
+            .idata_putc.o      idata   0x0000e4       data   0x000000
+      .udata__user_putc.o      udata   0x0000e4       data   0x000000
+           .idata_c018i.o      idata   0x0000e4       data   0x000000
+         .udata_adcbusy.o      udata   0x0000e4       data   0x000000
+         .idata_adcbusy.o      idata   0x0000e4       data   0x000000
+         .udata_adcconv.o      udata   0x0000e4       data   0x000000
+         .idata_adcconv.o      idata   0x0000e4       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000e4       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000e4       data   0x000000
+         .udata_adcopen.o      udata   0x0000e4       data   0x000000
+         .idata_adcopen.o      idata   0x0000e4       data   0x000000
+          .udata_t0open.o      udata   0x0000e4       data   0x000000
+          .idata_t0open.o      idata   0x0000e4       data   0x000000
+         .udata_adcread.o      udata   0x0000e4       data   0x000000
+         .idata_adcread.o      idata   0x0000e4       data   0x000000
+        .udata_adcsetch.o      udata   0x0000e4       data   0x000000
+        .idata_adcsetch.o      idata   0x0000e4       data   0x000000
+          .idata_Timer0.o      idata   0x000100       data   0x000048
                    .stack      udata   0x000500       data   0x000100
             SFR_UNBANKED0      udata   0x000f80       data   0x000080
 
@@ -121,30 +121,29 @@ REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x000574      
-                            0x000576    0x00379e      
-                            0x0037a0    0x0037fb      
+                            0x000000    0x003764      
+                            0x003766    0x0037b1      
                             0x300001    0x300003      
                             0x300005    0x300006      
-            14335 out of 33048 program addresses used, program memory utilization is 43%
+            14262 out of 33048 program addresses used, program memory utilization is 43%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                  BusyADC   0x0037a0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
-               ConvertADC   0x0007fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
-                   D100_1   0x003758    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                    D100x   0x003756    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                   D10K_1   0x003652    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x00365e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x003650    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10_1   0x003776    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x00376e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-             Delay100TCYx   0x00374a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-             Delay10KTCYx   0x003646    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-              Delay10TCYx   0x003766    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                  BusyADC   0x0007f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
+               ConvertADC   0x003766    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+                   D100_1   0x00371e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                    D100x   0x00371c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                   D10K_1   0x003618    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x003624    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x003616    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10_1   0x00373c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x003734    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+             Delay100TCYx   0x003710    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+             Delay10KTCYx   0x00360c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+              Delay10TCYx   0x00372c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
                  Delay_ms   0x000a48    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
                 Delay_seg   0x000b2c    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
                  Delay_us   0x000a9e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
@@ -152,28 +151,28 @@ REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
                  FLO1632U   0x00001c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
                     FPD32   0x000046    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
                     FPM32   0x0000ec    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 FXD1616U   0x0036a2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                 FXD3232U   0x0007b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                 FXD1616U   0x003668    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXD3232U   0x0007ac    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
                  FXM1616S   0x000330    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x000744    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+                  FXM3232   0x00073c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
                   INT3216   0x0001c6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-               INT_TIMER0   0x0027f8    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               INT_TIMER0   0x0027be    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
             Liga_BCKLIGHT   0x000e64    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                  OpenADC   0x003502    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
-               OpenTimer0   0x00360e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-                  ReadADC   0x00377c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-               SetChanADC   0x003674    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
+                  OpenADC   0x0034c8    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+               OpenTimer0   0x0035d4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+                  ReadADC   0x003742    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+               SetChanADC   0x00363a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
                TSIGN1616A   0x00037c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-              WriteTimer0   0x0035d6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-                   _2jEnd   0x0035c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-       _D100TCYXCODE_0008   0x003752    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0012   0x00375c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0018   0x003762    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D10KTCYXCODE_0010   0x003656    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x003662    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-        _D10TCYXCODE_000A   0x003770    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x003772    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x003774    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+              WriteTimer0   0x00359c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+                   _2jEnd   0x003586    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+       _D100TCYXCODE_0008   0x003718    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x003722    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x003728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D10KTCYXCODE_0010   0x00361c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x003628    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+        _D10TCYXCODE_000A   0x003736    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x003738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x00373a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
                  __FpExit   0x000230    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
                  __FpPack   0x00025c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
             __FpReturnNaN   0x000224    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
@@ -199,145 +198,145 @@ REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
            ___if_lbl00007   0x000846    program     static                          
        ___return_lbl00000   0x000856    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x0007fa    program     static                          
-       ___return_lbl00000   0x0007b2    program     static                          
-       ___return_lbl00000   0x0036cc    program     static                          
-       ___return_lbl00001   0x00372c    program     static                          
-       ___return_lbl00002   0x0006be    program     static                          
+       ___return_lbl00000   0x0007f2    program     static                          
+       ___return_lbl00000   0x0007aa    program     static                          
+       ___return_lbl00000   0x003692    program     static                          
+       ___return_lbl00001   0x0036f2    program     static                          
+       ___return_lbl00002   0x0006b6    program     static                          
        ___return_lbl00025   0x000b18    program     static                          
-       ___return_lbl00205   0x00000c    program     static                          
-       ___return_lbl00206   0x000804    program     static                          
+       ___return_lbl00201   0x00000c    program     static                          
+       ___return_lbl00202   0x000804    program     static                          
                __config_0   0x300001    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                __config_1   0x300002    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                __config_2   0x300003    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                __config_3   0x300005    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                __config_4   0x300006    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   __init   0x0037aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-                   __pa_0   0x003220    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_1   0x003228    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_10   0x0032dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_11   0x0032ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_12   0x003300    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_13   0x00331a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_14   0x003332    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_15   0x003342    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_16   0x003358    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_17   0x00336a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_18   0x00337c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_19   0x003386    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_2   0x003232    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_20   0x003396    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_21   0x0033a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_22   0x0033b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_23   0x0033c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_24   0x0033d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_25   0x0033d8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_26   0x0033e2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_27   0x0033ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_28   0x0033f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_29   0x003402    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_3   0x00323c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_30   0x00341e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_31   0x003438    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_32   0x003452    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_33   0x00346a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_34   0x003474    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_35   0x003482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_36   0x00348a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_37   0x003494    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_38   0x0034a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_39   0x0034b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_4   0x003254    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_40   0x0034be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_41   0x0034ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_42   0x0034d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_43   0x0034dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_44   0x0034e2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_45   0x0034ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_46   0x0034f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_5   0x003268    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_6   0x003284    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_7   0x00328e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_8   0x00329a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_9   0x0032bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               __string_1   0x000574    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_10   0x0004e0    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_11   0x0004c7    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_12   0x0004b0    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_13   0x00049b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_14   0x000481    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_15   0x00046b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_16   0x000458    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_17   0x000442    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_18   0x00042c    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_19   0x00041d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_2   0x000571    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_20   0x000412    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_21   0x000407    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_22   0x0003fc    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_23   0x0003f1    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_24   0x0003de    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_25   0x0003c5    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_26   0x0003ad    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   __init   0x0007fe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __pa_0   0x0031e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x0031ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x0032a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x0032b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x0032c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x0032e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x0032f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x003308    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x00331e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x003330    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x003342    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x00334c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x0031f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x00335c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x00336c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x00337c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_23   0x003388    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x003396    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x00339e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x0033a8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x0033b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x0033ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x0033c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x003202    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x0033e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x0033fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x003418    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x003430    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x00343a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x003448    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x003450    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x00345a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x00346a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x003478    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x00321a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x003484    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x003490    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x003498    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x0034a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x0034a8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x0034b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x0034be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x00322e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x00324a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x003254    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x003260    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x003282    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+               __string_1   0x00056d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_10   0x0004d9    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_11   0x0004c0    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_12   0x0004a9    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_13   0x000494    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_14   0x00047a    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_15   0x000464    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_16   0x000451    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_17   0x00043b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_18   0x000425    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_19   0x000416    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_2   0x00056a    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_20   0x00040b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_21   0x000400    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_22   0x0003f5    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_23   0x0003ea    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_24   0x0003d7    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_25   0x0003be    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_26   0x0003a4    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
               __string_27   0x00038a    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_4   0x00055b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_5   0x000543    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_6   0x00052d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_7   0x000514    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_8   0x000507    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_9   0x0004f5    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __tmplbl_42   0x0033b6    program     static                          
-              __tmplbl_43   0x0031fe    program     static                          
-              __tmplbl_44   0x0031e4    program     static                          
-              __tmplbl_85   0x002936    program     static                          
-            __zero_memory   0x0036f2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                _do_cinit   0x000622    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               __string_4   0x000554    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_5   0x00053c    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_6   0x000526    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_7   0x00050d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_8   0x000500    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_9   0x0004ee    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __tmplbl_42   0x00337c    program     static                          
+              __tmplbl_43   0x0031c4    program     static                          
+              __tmplbl_44   0x0031aa    program     static                          
+              __tmplbl_85   0x0028fc    program     static                          
+            __zero_memory   0x0036b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                _do_cinit   0x00061a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x0007f6    program     static                          
+                   _false   0x0007ee    program     static                          
                 _high_ISR   0x000008    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                    _reset   0x000800    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                 _startup   0x003712    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-              _usart_putc   0x00372e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                 _startup   0x0036d8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+              _usart_putc   0x0036f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
-                ajusthora   0x00164e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              alimentador   0x001822    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                alimentar   0x00242e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                ajusthora   0x00165a    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              alimentador   0x001830    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                alimentar   0x00243c    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
              caracter_esp   0x000ea0    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                compare_l   0x003708    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                copy_loop   0x000694    program     static                          
-            copy_one_byte   0x00069a    program     static                          
+                compare_l   0x0036ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                copy_loop   0x00068c    program     static                          
+            copy_one_byte   0x000692    program     static                          
  desloca_mensagem_direita   0x000b8c    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
 desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                     done   0x0006be    program     static                          
-             done_copying   0x0006a8    program     static                          
-                  endloop   0x0036c8    program     static                          
+                     done   0x0006b6    program     static                          
+             done_copying   0x0006a0    program     static                          
+                  endloop   0x00368e    program     static                          
            envia_byte_lcd   0x00085e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
          envia_nibble_lcd   0x000806    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
               escreve_lcd   0x0009a0    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
            inicializa_lcd   0x0008fa    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                  isdigit   0x0036ce    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                  isdigit   0x003694    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
                  jANotInf   0x000064    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
                  jANotInf   0x00010a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
                 jANotZero   0x000078    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
               jBothFinite   0x000118    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
              jBothNotZero   0x000124    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                     jEnd   0x0035c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x00358a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x003588    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x003550    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
                     jExit   0x000222    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
                 jHaveZero   0x000120    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
                 jI2F16Beg   0x000030    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    jLoop   0x0035aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x003570    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
                     jLoop   0x0000a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jLoop   0x003580    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x003546    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
                     jLoop   0x000202    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
                 jLoopExit   0x000212    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                   jMatch   0x0036ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x0036b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
                      jMax   0x0001d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
                   jMaxNeg   0x0001e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
                   jMaxPos   0x0001da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
                     jNext   0x0000c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
                 jNoAdjust   0x0000c4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jNoMatch   0x0036f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x0036b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
                   jNotInf   0x0001f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
                   jPkLoop   0x00026a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
              jPkRoundDone   0x0002b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
@@ -354,35 +353,35 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                  jUnpkNaN   0x000300    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
                     jZero   0x0001ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
                jZero1and2   0x000244    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               led_ligado   0x0024d4    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                led_pisca   0x0024ea    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              liga_cooler   0x002784    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               led_ligado   0x0024e2    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                led_pisca   0x0024f8    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              liga_cooler   0x002788    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                 limpa_lcd   0x0008dc    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                     loop   0x003722    program     static                          
-                     loop   0x0036ac    program     static                          
-                     loop   0x00373e    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x0007c2    program     static                          
-                   loop_h   0x003700    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                   loop_l   0x00370a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     loop   0x0036e8    program     static                          
+                     loop   0x003672    program     static                          
+                     loop   0x003704    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x0007ba    program     static                          
+                   loop_h   0x0036c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                   loop_l   0x0036d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      main   0x001032    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                      oxi   0x00268a    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog1   0x001cee    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog2   0x001e60    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog3   0x001fd2    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog4   0x002146    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog5   0x0022ba    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     putc   0x0006c0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                      oxi   0x002692    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog1   0x001cfc    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog2   0x001e6e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog3   0x001fe0    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog4   0x002154    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog5   0x0022c8    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     putc   0x0006b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
                 putrsXLCD   0x0009c4    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
                  putsXLCD   0x000a08    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                 s_digits   0x00378e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-            s_put_n_chars   0x0028e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  sprintf   0x000576    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                   strlen   0x003570    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00358c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-              temperatura   0x002512    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     test   0x00063c    program     static                          
-                 vfprintf   0x00290c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               zero_block   0x003700    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                 s_digits   0x003754    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+            s_put_n_chars   0x0028a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  sprintf   0x00056e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+                   strlen   0x003536    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x003552    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+              temperatura   0x002520    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     test   0x000634    program     static                          
+                 vfprintf   0x0028d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+               zero_block   0x0036c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -397,7 +396,7 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                   BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                       BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     BUZE   0x00009a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     BUZE   0x00011a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                   CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                   CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -422,8 +421,8 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                  DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-            DelayCounter1   0x00001d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
-            DelayCounter2   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
+            DelayCounter2   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
                   ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  ECCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -535,7 +534,7 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    Smile   0x000080       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
+                    Smile   0x000100       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
                     T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -609,61 +608,61 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
                   __tmp_0   0x000014       data     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                        a   0x000092       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                  alahora   0x000096       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   alamin   0x000094       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa1   0x0000be       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa2   0x0000c0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa3   0x0000c2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa4   0x0000c4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa5   0x0000c6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                        b   0x000098       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   buffer   0x00012d       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     cont   0x000088       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    cont2   0x00008a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                curr_byte   0x0000d3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0000d5       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0000d7       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                      dec   0x000115       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     dec1   0x000140       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     dec2   0x000117       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    enter   0x00009e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   enter2   0x000144       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    exibe   0x00012c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     exit   0x0000a2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     giro   0x000119       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     hora   0x00008e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                        i   0x000111       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                      lcd   0x00011b       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     menu   0x00009c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    mhora   0x0000a4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   minuto   0x000090       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    msgem   0x000100       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                     prog   0x0000a0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh1   0x0000aa       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh2   0x0000ac       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh3   0x0000ae       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh4   0x0000b0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh5   0x0000b2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm1   0x0000b4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm2   0x0000b6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm3   0x0000b8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm4   0x0000ba       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm5   0x0000bc       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     prom   0x0000d0       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     rest   0x0000c8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-           resultado_conv   0x000148       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-          resultado_conv1   0x00014a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              sensor_temp   0x000113       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    store   0x0000ca       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                  t_volts   0x0000cc       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     temp   0x00013e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   tensao   0x000146       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                       un   0x0000ce       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                      un1   0x0000a8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               valor_temp   0x0000a6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     volt   0x000142       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                        x   0x00008c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                        a   0x000112       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                  alahora   0x000116       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   alamin   0x000114       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa1   0x00013e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa2   0x000140       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa3   0x000142       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa4   0x000144       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa5   0x000146       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                        b   0x000118       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   buffer   0x0000ad       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     cont   0x000108       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    cont2   0x00010a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                curr_byte   0x0000dd       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000df       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000e1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                      dec   0x000095       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     dec1   0x0000c0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     dec2   0x000097       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    enter   0x00011e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   enter2   0x0000cc       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    exibe   0x0000ac       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     exit   0x000122       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     giro   0x000099       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     hora   0x00010e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                        i   0x000091       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
+                      lcd   0x00009b       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     menu   0x00011c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    mhora   0x000124       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   minuto   0x000110       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    msgem   0x000080       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
+                     prog   0x000120       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh1   0x00012a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh2   0x00012c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh3   0x00012e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh4   0x000130       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh5   0x000132       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm1   0x000134       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm2   0x000136       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm3   0x000138       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm4   0x00013a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm5   0x00013c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     prom   0x0000da       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     rest   0x0000c4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+           resultado_conv   0x0000d2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+          resultado_conv1   0x0000d6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              sensor_temp   0x000093       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    store   0x0000c6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                  t_volts   0x0000c8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     temp   0x0000be       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   tensao   0x0000ce       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                       un   0x0000ca       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                      un1   0x000128       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               valor_temp   0x000126       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     volt   0x0000c2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                        x   0x00010c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
 
 
 
@@ -674,7 +673,7 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
        ___return_lbl00000   0x000004    program     static                          
                _user_putc   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
                 _high_ISR   0x000008    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-       ___return_lbl00205   0x00000c    program     static                          
+       ___return_lbl00201   0x00000c    program     static                          
                  FLO1632U   0x00001c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
                  FLO1632S   0x000020    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
                 jI2F16Beg   0x000030    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
@@ -727,49 +726,50 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                  FXM1616S   0x000330    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
                TSIGN1616A   0x00037c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
               __string_27   0x00038a    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_26   0x0003ad    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_25   0x0003c5    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_24   0x0003de    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_23   0x0003f1    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_22   0x0003fc    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_21   0x000407    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_20   0x000412    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_19   0x00041d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_18   0x00042c    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_17   0x000442    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_16   0x000458    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_15   0x00046b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_14   0x000481    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_13   0x00049b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_12   0x0004b0    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_11   0x0004c7    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              __string_10   0x0004e0    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_9   0x0004f5    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_8   0x000507    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_7   0x000514    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_6   0x00052d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_5   0x000543    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_4   0x00055b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_2   0x000571    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               __string_1   0x000574    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                  sprintf   0x000576    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                _do_cinit   0x000622    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x00063c    program     static                          
-                copy_loop   0x000694    program     static                          
-            copy_one_byte   0x00069a    program     static                          
-             done_copying   0x0006a8    program     static                          
-                     done   0x0006be    program     static                          
-       ___return_lbl00002   0x0006be    program     static                          
-                     putc   0x0006c0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                  FXM3232   0x000744    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x0007b2    program     static                          
-                 FXD3232U   0x0007b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x0007c2    program     static                          
-                   _false   0x0007f6    program     static                          
-       ___return_lbl00000   0x0007fa    program     static                          
-               ConvertADC   0x0007fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+              __string_26   0x0003a4    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_25   0x0003be    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_24   0x0003d7    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_23   0x0003ea    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_22   0x0003f5    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_21   0x000400    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_20   0x00040b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_19   0x000416    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_18   0x000425    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_17   0x00043b    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_16   0x000451    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_15   0x000464    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_14   0x00047a    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_13   0x000494    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_12   0x0004a9    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_11   0x0004c0    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              __string_10   0x0004d9    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_9   0x0004ee    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_8   0x000500    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_7   0x00050d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_6   0x000526    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_5   0x00053c    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_4   0x000554    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_2   0x00056a    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               __string_1   0x00056d    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                  sprintf   0x00056e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x00061a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x000634    program     static                          
+                copy_loop   0x00068c    program     static                          
+            copy_one_byte   0x000692    program     static                          
+             done_copying   0x0006a0    program     static                          
+                     done   0x0006b6    program     static                          
+       ___return_lbl00002   0x0006b6    program     static                          
+                     putc   0x0006b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                  FXM3232   0x00073c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x0007aa    program     static                          
+                 FXD3232U   0x0007ac    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x0007ba    program     static                          
+                   _false   0x0007ee    program     static                          
+       ___return_lbl00000   0x0007f2    program     static                          
+                  BusyADC   0x0007f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
+                   __init   0x0007fe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                    _reset   0x000800    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-       ___return_lbl00206   0x000804    program     static                          
+       ___return_lbl00202   0x000804    program     static                          
          envia_nibble_lcd   0x000806    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
          ___else_lbl00002   0x00081a    program     static                          
            ___if_lbl00001   0x00081c    program     static                          
@@ -790,131 +790,130 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                  Delay_us   0x000a9e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
           ___for_lbl00028   0x000ad8    program     static                          
           ___for_lbl00026   0x000b0e    program     static                          
-       ___return_lbl00025   0x000b18    program     static                          
           ___for_lbl00027   0x000b18    program     static                          
+       ___return_lbl00025   0x000b18    program     static                          
                 Delay_seg   0x000b2c    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
  desloca_mensagem_direita   0x000b8c    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
 desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
             Liga_BCKLIGHT   0x000e64    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
              caracter_esp   0x000ea0    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
                      main   0x001032    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                ajusthora   0x00164e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              alimentador   0x001822    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog1   0x001cee    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog2   0x001e60    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog3   0x001fd2    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog4   0x002146    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    prog5   0x0022ba    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                alimentar   0x00242e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               led_ligado   0x0024d4    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                led_pisca   0x0024ea    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              temperatura   0x002512    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                      oxi   0x00268a    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-              liga_cooler   0x002784    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               INT_TIMER0   0x0027f8    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-            s_put_n_chars   0x0028e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                 vfprintf   0x00290c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-              __tmplbl_85   0x002936    program     static                          
-              __tmplbl_44   0x0031e4    program     static                          
-              __tmplbl_43   0x0031fe    program     static                          
-                   __pa_0   0x003220    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_1   0x003228    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_2   0x003232    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_3   0x00323c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_4   0x003254    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_5   0x003268    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_6   0x003284    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_7   0x00328e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_8   0x00329a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_9   0x0032bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_10   0x0032dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_11   0x0032ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_12   0x003300    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_13   0x00331a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_14   0x003332    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_15   0x003342    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_16   0x003358    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_17   0x00336a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_18   0x00337c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_19   0x003386    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_20   0x003396    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_21   0x0033a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_22   0x0033b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-              __tmplbl_42   0x0033b6    program     static                          
-                  __pa_23   0x0033c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_24   0x0033d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_25   0x0033d8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_26   0x0033e2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_27   0x0033ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_28   0x0033f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_29   0x003402    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_30   0x00341e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_31   0x003438    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_32   0x003452    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_33   0x00346a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_34   0x003474    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_35   0x003482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_36   0x00348a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_37   0x003494    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_38   0x0034a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_39   0x0034b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_40   0x0034be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_41   0x0034ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_42   0x0034d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_43   0x0034dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_44   0x0034e2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_45   0x0034ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_46   0x0034f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  OpenADC   0x003502    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
-                   strlen   0x003570    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                    jLoop   0x003580    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x00358a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00358c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x0035aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x0035c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x0035c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-              WriteTimer0   0x0035d6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-               OpenTimer0   0x00360e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-             Delay10KTCYx   0x003646    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x003650    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x003652    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x003656    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x00365e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x003662    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-               SetChanADC   0x003674    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
-                 FXD1616U   0x0036a2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x0036ac    program     static                          
-                  endloop   0x0036c8    program     static                          
-       ___return_lbl00000   0x0036cc    program     static                          
-                  isdigit   0x0036ce    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x0036ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x0036f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-            __zero_memory   0x0036f2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                   loop_h   0x003700    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-               zero_block   0x003700    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                compare_l   0x003708    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                   loop_l   0x00370a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                 _startup   0x003712    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x003722    program     static                          
-       ___return_lbl00001   0x00372c    program     static                          
-              _usart_putc   0x00372e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x00373e    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-             Delay100TCYx   0x00374a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0008   0x003752    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                    D100x   0x003756    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                   D100_1   0x003758    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0012   0x00375c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0018   0x003762    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-              Delay10TCYx   0x003766    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x00376e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000A   0x003770    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x003772    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x003774    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                    D10_1   0x003776    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                  ReadADC   0x00377c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-                 s_digits   0x00378e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  BusyADC   0x0037a0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
-                   __init   0x0037aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                ajusthora   0x00165a    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              alimentador   0x001830    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog1   0x001cfc    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog2   0x001e6e    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog3   0x001fe0    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog4   0x002154    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    prog5   0x0022c8    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                alimentar   0x00243c    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               led_ligado   0x0024e2    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                led_pisca   0x0024f8    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              temperatura   0x002520    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                      oxi   0x002692    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+              liga_cooler   0x002788    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               INT_TIMER0   0x0027be    program     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+            s_put_n_chars   0x0028a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                 vfprintf   0x0028d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+              __tmplbl_85   0x0028fc    program     static                          
+              __tmplbl_44   0x0031aa    program     static                          
+              __tmplbl_43   0x0031c4    program     static                          
+                   __pa_0   0x0031e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x0031ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x0031f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x003202    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x00321a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x00322e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x00324a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x003254    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x003260    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x003282    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x0032a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x0032b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x0032c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x0032e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x0032f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x003308    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x00331e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x003330    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x003342    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x00334c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x00335c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x00336c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x00337c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+              __tmplbl_42   0x00337c    program     static                          
+                  __pa_23   0x003388    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x003396    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x00339e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x0033a8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x0033b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x0033ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x0033c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x0033e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x0033fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x003418    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x003430    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x00343a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x003448    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x003450    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x00345a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x00346a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x003478    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x003484    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x003490    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x003498    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x0034a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x0034a8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x0034b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x0034be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  OpenADC   0x0034c8    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+                   strlen   0x003536    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x003546    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x003550    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x003552    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x003570    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x003586    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x003588    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+              WriteTimer0   0x00359c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+               OpenTimer0   0x0035d4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+             Delay10KTCYx   0x00360c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x003616    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x003618    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x00361c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x003624    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x003628    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+               SetChanADC   0x00363a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
+                 FXD1616U   0x003668    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x003672    program     static                          
+                  endloop   0x00368e    program     static                          
+       ___return_lbl00000   0x003692    program     static                          
+                  isdigit   0x003694    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x0036b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x0036b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+            __zero_memory   0x0036b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                   loop_h   0x0036c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+               zero_block   0x0036c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                compare_l   0x0036ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                   loop_l   0x0036d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                 _startup   0x0036d8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x0036e8    program     static                          
+       ___return_lbl00001   0x0036f2    program     static                          
+              _usart_putc   0x0036f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x003704    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+             Delay100TCYx   0x003710    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0008   0x003718    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                    D100x   0x00371c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                   D100_1   0x00371e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x003722    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x003728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+              Delay10TCYx   0x00372c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x003734    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x003736    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x003738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x00373a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x00373c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                  ReadADC   0x003742    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+                 s_digits   0x003754    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+               ConvertADC   0x003766    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
                __config_0   0x300001    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                __config_1   0x300002    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                __config_2   0x300003    program     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
@@ -939,133 +938,133 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                  __BARGB0   0x00000c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
                    __BEXP   0x00000d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
                      SIGN   0x00000e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
-                __FPFLAGS   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
             __FPFLAGSbits   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
                  __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                    __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                   __tmp_0   0x000014       data     static C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-            DelayCounter2   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
-            DelayCounter1   0x00001d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
-                    Smile   0x000080       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                     cont   0x000088       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    cont2   0x00008a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                        x   0x00008c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     hora   0x00008e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   minuto   0x000090       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                        a   0x000092       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   alamin   0x000094       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                  alahora   0x000096       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                        b   0x000098       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     BUZE   0x00009a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     menu   0x00009c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    enter   0x00009e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     prog   0x0000a0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     exit   0x0000a2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    mhora   0x0000a4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-               valor_temp   0x0000a6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                      un1   0x0000a8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh1   0x0000aa       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh2   0x0000ac       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh3   0x0000ae       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh4   0x0000b0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progh5   0x0000b2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm1   0x0000b4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm2   0x0000b6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm3   0x0000b8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm4   0x0000ba       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   progm5   0x0000bc       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa1   0x0000be       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa2   0x0000c0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa3   0x0000c2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa4   0x0000c4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   ativa5   0x0000c6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     rest   0x0000c8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    store   0x0000ca       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                  t_volts   0x0000cc       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                       un   0x0000ce       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     prom   0x0000d0       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                curr_byte   0x0000d3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0000d5       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0000d7       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                    msgem   0x000100       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-                        i   0x000111       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
-              sensor_temp   0x000113       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                      dec   0x000115       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     dec2   0x000117       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     giro   0x000119       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                      lcd   0x00011b       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                    exibe   0x00012c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   buffer   0x00012d       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     temp   0x00013e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     dec1   0x000140       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                     volt   0x000142       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   enter2   0x000144       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-                   tensao   0x000146       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-           resultado_conv   0x000148       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
-          resultado_conv1   0x00014a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+            DelayCounter2   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
+                    msgem   0x000080       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
+                        i   0x000091       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
+              sensor_temp   0x000093       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                      dec   0x000095       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     dec2   0x000097       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     giro   0x000099       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                      lcd   0x00009b       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    exibe   0x0000ac       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   buffer   0x0000ad       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     temp   0x0000be       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     dec1   0x0000c0       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     volt   0x0000c2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     rest   0x0000c4       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    store   0x0000c6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                  t_volts   0x0000c8       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                       un   0x0000ca       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   enter2   0x0000cc       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   tensao   0x0000ce       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+           resultado_conv   0x0000d2       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+          resultado_conv1   0x0000d6       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     prom   0x0000da       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x0000dd       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000df       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000e1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                    Smile   0x000100       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h
+                     cont   0x000108       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    cont2   0x00010a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                        x   0x00010c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     hora   0x00010e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   minuto   0x000110       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                        a   0x000112       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   alamin   0x000114       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                  alahora   0x000116       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                        b   0x000118       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     BUZE   0x00011a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     menu   0x00011c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    enter   0x00011e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     prog   0x000120       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                     exit   0x000122       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                    mhora   0x000124       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+               valor_temp   0x000126       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                      un1   0x000128       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh1   0x00012a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh2   0x00012c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh3   0x00012e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh4   0x000130       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progh5   0x000132       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm1   0x000134       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm2   0x000136       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm3   0x000138       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm4   0x00013a       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   progm5   0x00013c       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa1   0x00013e       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa2   0x000140       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa3   0x000142       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa4   0x000144       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
+                   ativa5   0x000146       data     extern C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c
                 PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     PORTD   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATDbits   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      LATD   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      LATE   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                 DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                 DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 TRISDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -1083,31 +1082,31 @@ desloca_mensagem_esquerda   0x000ce6    program     extern C:\Users\Carol\Deskto
                 T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    ECCPAS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                ECCPASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                  PWM1CON   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-              PWM1CONbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
              ECCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  ECCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                  PWM1CON   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+              PWM1CONbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                   BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                   BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                   CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                   CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm

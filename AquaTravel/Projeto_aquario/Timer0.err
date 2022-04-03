@@ -1,0 +1,129 @@
+Warning[2058] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 319 : call of function without prototype
+Warning[2058] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 331 : call of function without prototype
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 333 : suspicious pointer conversion
+Warning[2058] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 361 : call of function without prototype
+Warning[2058] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 371 : call of function without prototype
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 373 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 206 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 206 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 208 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 209 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 209 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 211 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 229 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 229 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 231 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 232 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 232 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 234 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 261 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 261 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 263 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 272 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 272 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 274 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 286 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 286 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 288 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 295 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 295 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 297 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 304 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 304 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 306 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 313 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 313 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 315 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 322 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 322 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 324 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 349 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 349 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 351 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 352 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 352 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 354 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 384 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 384 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 386 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 387 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 387 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 389 : suspicious pointer conversion
+Warning[2058] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 392 : call of function without prototype
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 401 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 401 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 403 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 404 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 404 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 406 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 423 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 423 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 425 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 426 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 426 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 428 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 436 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 436 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 438 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 439 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 439 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 441 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 450 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 450 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 452 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 453 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 453 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 455 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 464 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 464 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 466 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 467 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 467 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 469 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 478 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 478 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 480 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 481 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 481 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 483 : suspicious pointer conversion
+Warning[2058] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 492 : call of function without prototype
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 546 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 546 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 548 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 549 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 549 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 551 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 604 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 604 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 606 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 607 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 607 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 609 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 662 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 662 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 664 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 665 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 665 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 667 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 720 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 720 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 722 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 723 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 723 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 725 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 778 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 778 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 780 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 781 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 781 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 783 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 790 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 790 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 792 : suspicious pointer conversion
+Warning[2058] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 805 : call of function without prototype
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 841 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 841 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 843 : suspicious pointer conversion
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 845 : suspicious pointer conversion
+Warning[2066] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 845 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Guilherme\Desktop\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 847 : suspicious pointer conversion

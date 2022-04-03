@@ -1,0 +1,456 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                     Programação em C18 - PIC18F4520                     *
+ *                              PRÁTICA 01                                 *
+ *                                                                         *
+ *                                                                         *
+ *                                                                         *
+ *                                                                         *
+ *                                                                         *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *     VERSÃO : 1.0                                                        *
+ *     DATA : 20/07/12                                                     *
+ *     PROGRAMMER : David Maciel Silva                                     *
+ *                                                                         *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/*                                                                         *
+ * DEVELOPMENT BOARD: Kit C18 Proteus                                      *                                                  
+ *                                                                         *
+/* * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * * * * * * * **
+ *                             Descrição geral                             *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                DEFINIÇÃO DAS VARIÁVEIS INTERNAS DO PIC                  *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// O arquivo de definições do pic utilizado deve ser referenciado para que
+//os nomes definidos pela Microchip possam ser utilizados, sem a necessidade
+//de redigitação.
+
+#include <p18F4520.h>         // ESSA LINHA DEVE SER INSERIDO O DISPOSITIVO.
+#include "displayLCD.h"       //BIBLIOTECA QUE CONTEM FUNÇÕES PARA DISPLAY LCD
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                         Configurações para gravação                   *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#pragma config OSC = HS     // Oscilador HS com PLL habilitado, HS usado pelo USB
+#pragma config PBADEN = OFF        // Desabilita conversor A/D no PORTB       
+#pragma config PWRT = ON           // Habilita Power-up Timer
+#pragma config WDT = OFF           // Watch-dog Timer desabilitado 
+#pragma config LVP = OFF           // Desabilita programação por baixa tensão
+#pragma config DEBUG = OFF         // Desabilita modo de DEGUB
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                INCLUDES DAS FUNÇÕES DE PERIFÉRICOS DO PIC             *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#include <pwm.h>                 //PWM library functions
+#include <adc.h>                  //ADC library functions
+#include <timers.h>               //Timer library functions
+#include <delays.h>               //Delay library functions
+#include <i2c.h>                  //I2C library functions
+#include <stdlib.h>               //Library functions
+#include <stdio.h>               //Output functions
+#include <usart.h>                //USART library functions
+#include <math.h>
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                       PROTOTIPAGEM DE FUNÇÕES                         *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+void INT_TIMER0(void);
+void ajusthora(void);
+void alarme(void);
+void alarmeajus(void);
+void relogio(void);
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                           Constantes internas                           *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+//A definição de constantes facilita a programação e a manutenção.
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                 Definição e inicialização das variáveis                 *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+//Neste bloco estão definidas as variáveis globais do programa.
+
+unsigned int cont,cont2,x,hora,minuto,a,alamin,alahora,b,BUZE;
+unsigned int menu,enter,prog,exit,mhora;
+unsigned char lcd[17];
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                    Declaração dos flags de software                   *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+//A definição de flags ajuda na programação e economiza memória RAM.
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                                ENTRADAS                               *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// As entradas devem ser associadas a nomes para facilitar a programação e
+//futuras alterações do hardware.
+#define BT1 PORTBbits.RB1
+#define BT2 PORTBbits.RB2
+#define BT3 PORTBbits.RB3
+#define BT4 PORTBbits.RB4
+//#define BT1 PORTBbits.RB5
+//#define BT2 PORTBbits.RB6
+//#define BT3 PORTBbits.RB7
+#define SENS0 PORTBbits.RA0
+#define SENS1 PORTBbits.RA1
+#define OXI2 PORTBbits.RC3
+#define ALIM2 PORTBbits.RC5
+#define COO2 PORTBbits.RC7
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                                 SAÍDAS                              *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// AS SAÍDAS DEVEM SER ASSOCIADAS A NOMES PARA FACILITAR A PROGRAMAÇÃO E
+//FUTURAS ALTERAÇÕES DO HARDWARE.
+
+#define LED1 PORTBbits.RC0
+#define LED2 PORTBbits.RC1
+#define OXI1 PORTBbits.RC2
+#define ALIM1 PORTBbits.RC4
+#define COO1 PORTBbits.RC6
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                            Função Principal                         *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+void main ()
+   {
+    
+
+   PORTA = 0X00;                       //Clear PORTA
+   PORTB = 0X00;                       //Clear PORTB
+   PORTC = 0X00;                       //Clear PORTC
+   PORTD = 0X00;                       //Clear PORTD
+   PORTE = 0x00;                       //Clear PORTE
+
+   LATA = 0X00;                       	//Clear PORTA
+   LATB = 0X00;                       	//Clear PORTB
+   LATC = 0X00;                  		//Clear PORTC
+   LATD = 0X00;                       	//Clear PORTD
+   LATE = 0x00;                       	//Clear PORTE
+
+   TRISA = 0b00000011;                  //CONFIG DIREÇÃO DOS PINOS PORTA
+   TRISB = 0b00011110;                  //CONFIG DIREÇÃO DOS PINOS PORTB
+   TRISC = 0b00000000;               	//CONFIG DIREÇÃO DOS PINOS PORTC
+   TRISD = 0b00000000;                  //CONFIG DIREÇÃO DOS PINOS PORTD
+   TRISE = 0b00000000;                  //CONFIG DIREÇÃO DOS PINOS PORTE        
+
+   ADCON1 = 0b00001111;                //DESLIGA CONVERSORES A/D
+
+   INTCONbits.GIE=1;          	//Habilita as interrupções da CPU -  Interrupções globais.
+   INTCONbits.GIEH=1;        	// Habilita interrupção no vetor de alta prioridade.
+   INTCONbits.GIEL=0;       	// Desabilita interrupção no vetor de baixa prioridade.
+   INTCONbits.PEIE=1;      		// Habilita interrupção de periféricos
+   RCONbits.IPEN=1;       		// Habilita prioridade de interrupção
+   INTCONbits.TMR0IE=1;  		//Habilita interrupção por estouro do timer 0
+   INTCONbits.TMR0IF=0;  		//Flag da interrupção do timer 0
+   INTCON2bits.TMR0IP=1; 		//Prioridade alta para interrupção pelo estouro do timer 0
+
+/***** Configurações Timer 0 *********/
+
+   OpenTimer0(TIMER_INT_ON
+           &T0_16BIT
+           &T0_SOURCE_INT
+           &T0_PS_1_128);      //Estouro a cada 209ms.
+
+   WriteTimer0(26474); // incia com o valor a ser estourado.
+
+/***** Configurações de Porta Serial RS232 *********/
+      
+   
+
+/***** Configurações de Portas de conversão AD *********/
+
+
+   inicializa_lcd();
+
+   sprintf(lcd,"   Aquatravel");
+   envia_byte_lcd(0,0x80);
+   putsXLCD(lcd);
+   sprintf(lcd,"  Projeto Final");
+   envia_byte_lcd(0,0xC0);
+   putsXLCD(lcd);
+   Delay10KTCYx(250);//Aguarda 
+   Delay10KTCYx(250);//Aguarda 
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                            Rotina Principal                         *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+   while(1)						// inicio da cronometragem do relogio 
+  {
+
+if (BT1==1)    //Inicio do menu
+    { 
+		menu ++; 
+	
+ if (menu==4)
+{
+ 	menu = 0   ;
+Delay10KTCYx(150);//Aguarda 
+}
+}
+      sprintf(lcd,"    Menu: %01d        ",menu);
+ 	  envia_byte_lcd(0,0x80);
+      putsXLCD(lcd); 
+      sprintf(lcd," Hora: %02d"":%02d"":%02d   " ,hora,minuto,cont);
+ 	  envia_byte_lcd(0,0xC0);
+      putsXLCD(lcd);  
+
+switch (menu)
+{
+ case 1: ; // condição para ajuste da hora 
+   
+ if( BT2=1);
+{
+	enter = 1;
+  ajusthora(); 
+   Delay10KTCYx(250);//Aguarda 
+   Delay10KTCYx(250);//Aguarda 
+  sprintf(lcd,"Ajuste hora ");
+  envia_byte_lcd(0,0x80);
+} 
+
+// case 2: sprintf(lcd,"Ajuste alimentador "); // condição para ajuste do alimentador
+//   envia_byte_lcd(0,0x80);
+//
+//   if( BT2==1);
+//{
+//	enter = 1;
+//  programar();  
+//}
+//
+// case 3: sprintf(lcd,"Ajuste da tamperatura ");// condição para ajuste da temperatura
+//   envia_byte_lcd(0,0x80);
+//
+//   if( BT2==1);
+//{
+//	enter = 1;
+//  temperatura();  
+//}
+}
+
+//	if ((BT1 ==1)&&(BT2 == 1)&&(BT3==0))
+//		{
+//		x=1;
+//        ajuste();
+//		}
+//
+//	if ((BT1 ==1)&&(BT2 == 1)&&(BT3==1))
+//		{
+//		a=1;
+//		x=0;
+//        alarme();
+//		}
+//	if ((hora== alahora)&&(minuto == alamin))
+//		{
+//      Delay10KTCYx(250);
+//      limpa_lcd();	
+//     //BUZE=1;
+//	  sprintf(lcd,"   ACORDA           " ,hora,minuto,cont);
+//	  envia_byte_lcd(0,0x80);
+//      putsXLCD(lcd);
+//	  sprintf(lcd,"    %02d"":%02d          " ,alahora,alamin);
+//      envia_byte_lcd(0,0xC0);
+//      putsXLCD(lcd); 
+//
+//		}
+//
+
+
+  }
+               
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *                            Funções externas                         *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+void relogio (void)
+{	if(cont == 60)     // cronometragem dos segundos 
+		{
+		cont = 0 ;     // zeramento dos segundos
+		minuto++;	  // acrescimo dos minutos
+		}
+
+	if (minuto == 60)        // cronometragem dos minitos
+		{
+		minuto = 0;         // zeramento dos minutos
+		hora++;				// acrescimo das horas
+			}
+
+	if (hora==24)            // cronometragem das horas
+		{
+		hora=0;				 // zeramento das horas
+		}					//fim da cronometragem do relogio
+}
+void ajusthora (void)
+{
+mhora=0;
+while(enter==1)
+	{
+
+	if(cont == 60)
+		{
+		cont = 0 ;
+		
+		}
+
+		if (BT1 ==1)
+	    {
+			hora++;
+					if (hora==24)
+					{
+					hora=0;
+					}
+
+		Delay10KTCYx(150);//Aguarda 
+		}
+		if (BT2 == 1)
+	    {
+			minuto++;
+			if (minuto == 60)
+		{
+		minuto = 0;
+		hora++;
+			}
+		Delay10KTCYx(150);//Aguarda 
+		}
+		if (BT4 == 1)
+	    {
+      sprintf(lcd,"    RTC TMR0          ");
+ 	  envia_byte_lcd(0,0x80);
+      putsXLCD(lcd);
+      sprintf(lcd,"    SETADO             ");
+      envia_byte_lcd(0,0xC0);
+      putsXLCD(lcd); 
+	  main ();
+}
+		}
+
+//	//	limpa_LCD();
+//
+//      sprintf(lcd,"    AJUSTE RTC           ");
+// 	  envia_byte_lcd(0,0x80);
+//      putsXLCD(lcd);
+//      sprintf(lcd," %02d"":%02d               " ,hora,minuto);
+//      envia_byte_lcd(0,0xC0);
+//      putsXLCD(lcd); 
+	}
+	
+
+void alarme (void)
+{
+while(a==1)
+	{
+
+      limpa_lcd();	 
+      sprintf(lcd,"    SET ALARM           ");
+ 	  envia_byte_lcd(0,0x80);
+      putsXLCD(lcd);
+		Delay10KTCYx(500); 
+      alarmeajus();
+	  b=1;
+	}
+	
+}
+void alarmeajus (void)
+{
+while(b==1)
+
+{
+	if (BT1 ==1)
+	    {
+			alahora++;
+	if (alahora==24)
+		{
+		alahora=0;
+		}
+		Delay10KTCYx(250);//Aguarda 
+		}
+		if (BT2 == 1)
+	    {
+			alamin++;
+	if (alamin == 60)
+		{
+		alamin = 0;
+	
+			}
+		Delay10KTCYx(250);//Aguarda 
+		}
+
+
+	if ((BT3 == 1)&& (BT2== 0)&&(BT1==0))
+	    {
+      sprintf(lcd,"    Alarme ajustado        ");
+ 	  envia_byte_lcd(0,0x80);
+      putsXLCD(lcd);
+      sprintf(lcd,"para: %02d"":%02d          " ,alahora,alamin);
+      envia_byte_lcd(0,0xC0);
+      putsXLCD(lcd); 
+  	 Delay10KTCYx(250); 
+    	main ();
+		}
+	  limpa_lcd();
+      sprintf(lcd," 	Hora: %02d"":%02d"":%02d           " ,hora,minuto,cont);
+	  envia_byte_lcd(0,0x80);
+      putsXLCD(lcd);
+	Delay10KTCYx(250);
+	  sprintf(lcd,"		 Alarme: %02d"":%02d          " ,alahora,alamin);
+      envia_byte_lcd(0,0xC0);
+      putsXLCD(lcd);
+Delay10KTCYx(250);
+ 
+}
+}
+#pragma interrupt INT_TIMER0
+void INT_TIMER0(void)
+{
+   // Verifica se o motivo da chamada da interrupção foi mudança de estado no PORTB
+   if(INTCONbits.TMR0IF)
+   {
+      cont++;
+      INTCONbits.TMR0IF=0;
+      WriteTimer0(26474);
+   }// end tratamento da interrupção do PORTB (INTCONbits.RBIF)
+}// end interrupt
+
+
+
+/** EOF main.c ***************************************************************/
+
+// Alocação da função de tratamento das interrupções de ALTA prioridade
+// no endereço 0x808 da memória de programa.
+//
+#pragma code REMAPPED_HIGH_INTERRUPT_VECTOR = 0x08
+void _high_ISR (void)
+{
+
+       _asm goto INT_TIMER0 _endasm
+
+
+}
+
+/** V E C T O R   R E M A P P I N G ******************************************/
+// Seção necessária para informar ao compilador C18 onde são os novos endereços
+//da memória de programa que ele deve alocar as rotinas de tratamento do evento
+//de "reset" do microcontrolador.
+//
+//ATENÇÃO: COPIAR ESTA SEÇÃO DO CODIGO PARA TODO ARQUIVO "main.c" DOS PROJETOS
+//QUE UTILIZAM O BOOTLOADER PARA GRAVAÇÃO IN-CIRCUIT.
+
+extern void _startup (void);        // See c018i.c in your C18 compiler dir
+#pragma code _RESET_INTERRUPT_VECTOR = 0x000800
+void _reset (void)
+{
+    _asm goto _startup _endasm
+}
+#pragma code
