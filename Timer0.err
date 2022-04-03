@@ -1,0 +1,132 @@
+Warning[2058] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 319 : call of function without prototype
+Warning[2058] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 331 : call of function without prototype
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 333 : suspicious pointer conversion
+Warning[2058] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 361 : call of function without prototype
+Warning[2058] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 371 : call of function without prototype
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\displayLCD.h 373 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 214 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 214 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 216 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 217 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 217 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 219 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 240 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 240 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 242 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 243 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 243 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 245 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 268 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 268 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 270 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 279 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 279 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 281 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 311 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 311 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 313 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 320 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 320 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 322 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 329 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 329 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 331 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 338 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 338 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 340 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 347 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 347 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 349 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 376 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 376 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 378 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 379 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 379 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 381 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 411 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 411 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 413 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 414 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 414 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 416 : suspicious pointer conversion
+Warning[2058] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 419 : call of function without prototype
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 428 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 428 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 430 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 431 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 431 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 433 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 450 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 450 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 452 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 453 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 453 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 455 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 463 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 463 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 465 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 466 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 466 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 468 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 477 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 477 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 479 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 480 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 480 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 482 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 491 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 491 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 493 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 494 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 494 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 496 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 505 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 505 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 507 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 508 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 508 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 510 : suspicious pointer conversion
+Warning[2058] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 519 : call of function without prototype
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 573 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 573 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 575 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 576 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 576 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 578 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 631 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 631 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 633 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 634 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 634 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 636 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 689 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 689 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 691 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 692 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 692 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 694 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 747 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 747 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 749 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 750 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 750 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 752 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 805 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 805 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 807 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 808 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 808 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 810 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 817 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 817 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 819 : suspicious pointer conversion
+Warning[2058] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 832 : call of function without prototype
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 871 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 871 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 873 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 879 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 879 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 881 : suspicious pointer conversion
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 883 : suspicious pointer conversion
+Warning[2066] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 883 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Carol\Desktop\projeto aquario\AquaTravel_LM35 Rodando\AquaTravel\Timer0.c 885 : suspicious pointer conversion
